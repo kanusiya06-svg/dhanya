@@ -8,14 +8,14 @@ Mark1 to Mark5
 Attendance (%)
 Proper table format-la data create pannen
 next task 2
-Total Marks → sum of add total 5 mark, to display the o/p formula: EXAMPLE =SUM(D2:H2) -ENTER 
+Total Marks → sum of add total 5 mark, to display the o/p ,formula: (EXAMPLE) =SUM(D2:H2) -ENTER 
 Average → FORMULA(EG):=AVERAGE(D2:H2) -ENTER
 average means =total mark  /count 
 Marks Result →
 Total ≥ 50 → PASS
 Total < 50 → FAIL
 SELECT THE  MARK 1 TO MARK 5 (COLUMN)
-THE FORMULA:==IF(MIN(D2:H2)>=50,"PASS","FAIL")
+THE FORMULA:=IF(MIN(D2:H2)>=50,"PASS","FAIL")
 its means less than 50 na its show fail and greater than 50 its show pass 
 TASK 3:
 TO CREATE A NEW MARK  
@@ -30,6 +30,9 @@ ITS TO CALCULATE THE ATTENDANCE
               |
             SELECT THE ATTENDANCE ROW 
 Attendance eligibility  using IF condition
+next i used conditional formatting to highlight row with "NOTELIGIBLE".
+then i want to home -> conditional formating la lessthan choose panni format cell la NOTELIGIBLE KUDUTHU GREEN AND RED COLOR KUDUTHU ENTER PANNEN
+ITS  SHOW HIGHLIGHT THE RESULT -ITS SHOW ELIGIBLE WITH GREEN COLOR AND NOTELIGIBLE WITH RED COLOR
 Task 5: Summary Sheet
 Separate summary sheet TO CREATE THE COLUMN  :
 Total number of students
@@ -68,6 +71,10 @@ formula :=INDEX(Sheet1!B2:B10, MATCH(MAX(Sheet1!J2:J10), Sheet1!J2:J10, 0))
                           select the student name    select the total marks 
                           enter 
                           its shows topper student name    
+FIRST,I ENTERED THE DATA AND SELECTED THE ENTIRE TABLE.
+THEN I WENT TO INSERT->PIVOT TABLE AND CLICKED"PIVOT TABLE FROM TABLE OR RANGE".
+AFTER CLICKING OK,THE PIVOT TABLE FIELDS PANEL APPEARED ON THE SIDE.
+I SELECTED THE REQUIRED FIELDS,AND THE PIVOTTABLE WAS CREATED.                          
 condition used
 
 IF Function
